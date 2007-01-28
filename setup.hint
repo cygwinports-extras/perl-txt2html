@@ -1,0 +1,9 @@
+category: Text Perl
+requires: cygwin perl perl-Getopt-ArgvFile
+sdesc: "Creates HTML from plain text"
+ldesc: "Perl script and module that converts plain text to HTML. It 
+supports headings, lists, simple character markup, and hyperlinking, and 
+is highly customizable. Perl script and module that converts plain text 
+to HTML.  It recognizes some of the apparent structure of the
+source documents and attempts to mark that structure explicitly using
+HTML."

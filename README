@@ -1,0 +1,97 @@
+perl-txt2html
+-------------------------------------------
+Perl script and module that converts plain text to HTML. It supports 
+headings, lists, simple character markup, and hyperlinking, and is 
+highly customizable.  It recognizes some of the apparent structure of 
+the source documents and attempts to mark that structure explicitly 
+using HTML.
+
+Runtime requirements:
+  perl-5.8.7-5
+  perl-Getopt-ArgvFile-1.09-2
+
+Build requirements:
+  perl-5.8.7-5
+  perl-Getopt-ArgvFile-1.09-2
+  perl-Module-Build-0.26-2
+
+Canonical homepage:
+  http://txt2html.sourceforge.net/
+  http://search.cpan.org/~rubykat/txt2html/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/txt2html/
+  http://www.cpan.org/authors/id/R/RU/RUBYKAT/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-txt2html-2.45-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-txt2html-2.45-1.cygport all
+
+This will create:
+  /usr/src/perl-txt2html-2.45-1-src.tar.bz2
+  /usr/src/perl-txt2html-2.45-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/txt2html
+  /usr/lib/perl5/vendor_perl/5.8/HTML/TextToHTML.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/HTML/TextToHTML/.packlist
+  /usr/share/doc/Cygwin/perl-txt2html-2.45.README
+  /usr/share/doc/perl-txt2html-2.45/Changes
+  /usr/share/doc/perl-txt2html-2.45/README
+  /usr/share/doc/perl-txt2html-2.45/TODO
+  /usr/share/man/man1/txt2html.1.gz
+  /usr/share/man/man3/HTML.TextToHTML.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 2.45-1 -----
+Version bump.
+
+----- version 2.44-1 -----
+Version bump.
+
+----- version 2.43-1 -----
+Version bump.
+
+----- version 2.42-1 -----
+Version bump.
+
+----- version 2.30-2 -----
+Rebuilt for perl-5.8.6.
+
+----- version 2.30-1 -----
+Upstream bugfix release.  Building now requires Module::Build.
+
+----- version 2.25-1 -----
+New upstream release.
+
+Changes are focused on the links dictionary (txt2html.dict).  See the 
+Changes file for details.
+
+----- version 2.24-1 -----
+New upstream release.
+
+Changes include mostly formatting improvements; see the Changes file for 
+details.
+
+----- version 2.23-1 -----
+Minor upstream bugfix.
+
+Man pages are now gzipped.
+
+----- version 2.21-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

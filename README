@@ -7,43 +7,41 @@ the source documents and attempts to mark that structure explicitly
 using HTML.
 
 Runtime requirements:
-  perl-5.8.8-4
-  perl-Getopt-ArgvFile-1.09-2
-  perl-YAML-Syck-1.00-1
+  perl-5.10.0-3
+  perl-Getopt-ArgvFile-1.11-1
+  perl-YAML-Syck-1.04-1
 
 Build requirements:
-  cygport-0.3.7-1
-  perl-5.8.8-4
-  perl-Module-Build-0.2808-1
+  cygport-0.3.9-1
 
 Canonical homepage:
   http://txt2html.sourceforge.net/
   http://search.cpan.org/~rubykat/txt2html/
 
 Canonical download:
-  http://prdownloads.sourceforge.net/txt2html/
+  http://downloads.sourceforge.net/txt2html/
   http://www.cpan.org/authors/id/R/RU/RUBYKAT/
 
 -------------------------------------------
 
 Build instructions:
-  unpack perl-txt2html-2.50-1-src.tar.bz2
+  unpack perl-txt2html-2.50-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-txt2html-2.50-1.cygport all
+  cygport ./perl-txt2html-2.50-X.cygport all
 
 This will create:
-  /usr/src/perl-txt2html-2.50-1-src.tar.bz2
-  /usr/src/perl-txt2html-2.50-1.tar.bz2
+  /usr/src/perl-txt2html-2.50-X-src.tar.bz2
+  /usr/src/perl-txt2html-2.50-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/txt2html
-  /usr/lib/perl5/vendor_perl/5.8/HTML/TextToHTML.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/HTML/TextToHTML/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/HTML/TextToHTML.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/HTML/TextToHTML/.packlist
   /usr/share/doc/Cygwin/perl-txt2html-2.50.README
   /usr/share/doc/perl-txt2html-2.50/Changes
   /usr/share/doc/perl-txt2html-2.50/README
@@ -54,6 +52,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.50-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 2.50-1 -----
 Version bump.

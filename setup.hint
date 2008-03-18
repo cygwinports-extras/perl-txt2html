@@ -1,5 +1,5 @@
 category: Text Perl
-requires: cygwin perl perl-Getopt-ArgvFile perl-YAML-Syck
+requires: perl perl-Getopt-ArgvFile perl-YAML-Syck
 sdesc: "Creates HTML from plain text"
 ldesc: "Perl script and module that converts plain text to HTML. It 
 supports headings, lists, simple character markup, and hyperlinking, and 

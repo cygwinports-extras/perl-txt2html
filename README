@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-txt2html-2.50-X-src.tar.bz2
+  unpack perl-txt2html-2.51-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-txt2html-2.50-X.cygport all
+  cygport ./perl-txt2html-2.51-X.cygport all
 
 This will create:
-  /usr/src/perl-txt2html-2.50-X-src.tar.bz2
-  /usr/src/perl-txt2html-2.50-X.tar.bz2
+  /usr/src/perl-txt2html-2.51-X-src.tar.bz2
+  /usr/src/perl-txt2html-2.51-X.tar.bz2
 
 -------------------------------------------
 
@@ -42,16 +42,18 @@ Files included in the binary package:
   /usr/bin/txt2html
   /usr/lib/perl5/vendor_perl/5.10/HTML/TextToHTML.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/HTML/TextToHTML/.packlist
-  /usr/share/doc/Cygwin/perl-txt2html-2.50.README
-  /usr/share/doc/perl-txt2html-2.50/Changes
-  /usr/share/doc/perl-txt2html-2.50/README
-  /usr/share/doc/perl-txt2html-2.50/TODO
+  /usr/share/doc/perl-txt2html-2.51/Changes
+  /usr/share/doc/perl-txt2html-2.51/README
+  /usr/share/doc/perl-txt2html-2.51/TODO
   /usr/share/man/man1/txt2html.1.gz
   /usr/share/man/man3/HTML.TextToHTML.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 2.51-1 -----
+Version bump.
 
 ----- version 2.50-2 -----
 Rebuilt for perl-5.10.

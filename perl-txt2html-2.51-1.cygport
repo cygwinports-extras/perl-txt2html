@@ -1,0 +1,4 @@
+CPAN_AUTHOR=rubykat
+inherit perl
+
+DESCRIPTION="Perl plain-text to HTML converter"
